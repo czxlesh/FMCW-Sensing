@@ -8,7 +8,7 @@ set(s,'BaudRate',921600,'StopBits',1,'Parity','none','DataBits',8,'OutputBufferS
 fopen(s);
 
 
-for k = 1:50    %150seconds
+for k = 1:50    %50seconds
 %     display([k]);
     flag = 0;
     pre=fread(s,1,'uint8');
